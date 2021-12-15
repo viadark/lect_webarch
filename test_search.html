@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            title
+        </title>
+    </head>
+    <body>
+        <h1>
+            검색
+        </h1>
+        <form action="ProductionController" method="get" target="myi">
+        <!-- <form action="03.param.jsp" method="get" target="_blank"> -->
+            <input type="hidden" name="ocommand" value="searchProduct">
+            제품명: <input type="text" name="name"><br>
+            <button>검색</button>
+        </form>
+        
+        <iframe name="myi" width="500" height="500" frameborder="0">
+        </iframe>
+    </body>
+</html>

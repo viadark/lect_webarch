@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            title
+        </title>
+    </head>
+    <body>
+        <form action="ProductionController" method="get" target="myi">
+        <!-- <form action="03.param.jsp" method="get" target="_blank"> -->
+            <input type="hidden" name="ocommand" value="insertProduct">
+            제품명: <input type="text" name="name"><br>
+            수량: <input type="number" name="quantity"><br>
+            생산일: <input type="text" name="prod"><br>
+            <button>입력</button>
+        </form>
+        
+        <iframe name="myi" width="500" height="500" frameborder="0">
+        </iframe>
+    </body>
+</html>
